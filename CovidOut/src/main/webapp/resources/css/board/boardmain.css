@@ -1,0 +1,121 @@
+@charset "UTF-8";
+
+
+
+.board_layout{
+	
+	background-color: #1f2c59;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	padding: 150px 0;
+}
+
+
+
+
+.board_main h3 {
+	
+	color: white;
+	font-size : 60px;
+	
+}
+
+.hashtagform{
+	margin-top : 30px;
+	margin-bottom : 30px;
+	width : 70%;
+	background-color: #eee;
+	padding : 20px;
+}
+
+.hashtagform span{
+	color : black;
+	font-size : 1.5em;
+	
+}
+
+.hashtag{
+	
+	width : 170px;
+	border : 1px solid black;
+}
+
+.search{
+	background: #f2f3f5;	
+	padding: 20px 0;
+	text-align: center;
+}
+
+.search h3{
+	
+	font-size : 16px;
+}
+
+.board_textfield {
+	width: 500px;
+	padding: 14px 20px;
+	box-sizing: border-box;
+	border: 4px solid #ccc;
+	height: 55px;
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+.board_textfield:focus {
+	background-color:#7d828f; 
+	color: white;
+	outline: none;
+}
+
+.board_searchbtn{
+	
+	width: 120px;
+	padding: 14px 20px;
+	height: 55px;
+	font-size : 1em;
+	margin-left : 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .board_searchbtn{
+	
+	margin-top : 10px;
+}
+}
+
+.boardlist{
+	
+	width : 100%;
+	height : 100%;
+	
+}
+
+.boardleft{
+	
+	background-color : pink;
+	padding-left : 5px;
+   float: left;
+   width: 70%;
+   height : 100%;
+}
+
+.boardleft h4 {
+	
+	font-size : 1.3em;
+	text-align : left;
+	
+}
+
+.boardright{
+   float: left;
+   width: 25%;
+   background-color: #eee;
+   padding-left: 20px;
+   margin-left :20px;
+}
+
+.boardpage{
+	float : left;
+	width : 100%;
+}

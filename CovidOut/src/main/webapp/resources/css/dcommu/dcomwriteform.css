@@ -1,0 +1,54 @@
+@charset "UTF-8";
+body {
+   margin: 0;
+   padding: 0;
+   
+}
+html,body {
+   overflow-x: hidden;
+}
+.dcom-con {
+   margin: 0 auto;
+}
+.dcom-con2 {
+   max-width: 100%;
+}
+.dcom-img-box img {
+   display: block;
+   width: 100%;
+}
+.editor {
+   margin: 0 auto;
+}
+
+.dcom-con {
+   max-width: 1200px;
+   color: white;
+}
+
+.dcom-start {
+   
+   top: 100px;
+}
+
+.dcom-title {
+   position: relative;
+
+}
+
+.dcom-photo {
+   position: relative;
+   left: 320px;
+   top: -54px;
+}
+
+.dcom-writer {
+   position: relative;
+   left: 1080px;
+   top: -109px;
+
+}
+
+.dcom-button {
+   margin-top: 20px;
+}

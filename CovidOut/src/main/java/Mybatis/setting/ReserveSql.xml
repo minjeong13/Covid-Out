@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="reserve">
+	<!-- 전체 갯수 얻기 -->
+	<select id="totalCountOfReserve" resultType="int">
+		select count(*) from reserve
+	</select>
+	<!-- insert -->
+	<insert id="insertOfReserve" parameterType="rdto">
+		insert into reserve (rmnum,rdmnum,rmemo,rtime,rdate) values (#{rmnum},#{rdmnum},#{rmemo},#{rtime},#{rdate})
+	</insert>
+	<!-- getdata: 데이터가져오기 -->
+	<select id="selectOneOfReserve" parameterType="String" resultType="rdto">
+		select * from reserve where rnum=#{rnum}
+	</select>
+	<!-- update : 수정폼 -->
+	<select id="selectAllOfReserve" parameterType="rdto">
+		select * from reserve order by rnum asc
+	</select>
+	<!-- update -->
+	<update id="updateOfReserve" parameterType="rdto">
+		update reserve set rmnum=#{rmnum},rdmnum=#{rdmnum},rmemo=#{rmemo},rtime=#{rtime},rdate=#{tdate} where rnum=#{rnum}
+	</update>
+	<!-- delete-->
+	<delete id="deleteOfReserve" parameterType="String">
+		delete from reserve where rnum=#{rnum}
+	</delete>
+</mapper>
