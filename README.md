@@ -2,7 +2,7 @@
 
 Created: 2021년 1월 11일 → 2021년 2월 14일
 Type: JSP, MySQL, Spring, Website
-속성: https://github.com/minjeong13/Covid-Out.git
+Git: https://github.com/minjeong13/Covid-Out.git
 
 ![Output/covidoutsn.png](Output/covidoutsn.png)
 
